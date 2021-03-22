@@ -46,7 +46,8 @@ export const controls = (function() {
             break;
           case 37: // left
           case 65: // a
-            this._move.left = true; break;
+            this._move.left = true;
+            break;
           case 40: // down
           case 83: // s
             this._move.backward = true;
